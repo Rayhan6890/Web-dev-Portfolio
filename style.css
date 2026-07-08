@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+header{
+background-color: #fff;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.logo{
+ font-size: 2rem;
+ font-weight:bold;
+ font-family: Open Sans ;
+
+}
+.logo-r{
+    color:#FD6E0A;
+}
+
+.Nabigationbar{
+display: flex;
+list-style: none;
+justify-content: space-between;
+ align-items: center;
+gap: 10px;
+}
+.comon-btn{
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color:white;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FD6E0A;
+    padding: 10px 25px;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+.comon-btn:hover{
+    background-color: rgb(133, 101, 43);
+}
+.outlin-btn:hover{
+    background-color: rgb(240, 237, 231);
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+ .Nabigationbar, ul li a{
+    text-decoration: none;
+
+}
+/* nav End  */
+
+/* Hero Section Start */
+.hero-parent-root{
+ background-color: #fff6f2;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero-left h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.hero-left h5{
+    font-weight:600;
+    font-size: 25px;
+}
+.hero-left p{
+   font-weight: 600;
+   margin-bottom: 15px;
+   color: #757575;
+}
+.hero-btn-parent{
+ margin-top: 15px;
+}
+
+
+
+
+
+/* About section start */
+
+.About-parent{
+     background-color: #fff6f2;
+     margin: 100px auto;
+     padding: 50px;
+     text-align: center;
+}
+
+.About-parent p{
+    margin-top: 60px;
+    color: #757575;
+}
+
+.About-parent-box{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+/* About Section End */
+
+
+/* What I do Section Start */
+.What-I-do-parent{
+text-align: center;
+margin:100px  auto;
+}
+.What-I-do-parent p{
+    color: #757575;
+    padding: 20px 0px;
+}
+.What-I-do-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 10px;
+    text-align: left;
+    
+}
+ .card{
+    border: 1px solid #f8f3f1;
+    padding: 60px;
+    
+}
+.card:hover{
+    background-color: #f8f3f1;
+}
+.card p{
+    color:#757575;
+}
+/* What I do Section End */
+
+
+
+/* Summary Section Start */
+
+.summary-parent h2{
+ text-align: center;
+ margin: 100px auto;
+}
+
+.resume-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.resume-main-one h3{
+padding-bottom: 30px;
+}
+.resume-main-one h4{
+padding-bottom: 10px ;
+}
+
+.resume-main-one-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-one p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+
+.resume-main-two h3{
+padding-bottom: 30px;
+}
+.resume-main-two h4{
+padding-bottom: 10px ;
+}
+
+.resume-main-two-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-two p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+.resume-main-Engineering{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.resume-main-three h4{
+margin: 20px auto;
+}
+
+.resume-main-three-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-three p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+.resume-main-for h4{
+margin: 20px auto;
+}
+
+.resume-main-for-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-for p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+.resume-main-developer{
+     display: flex;
+    justify-content: space-between;
+    gap: 60px; 
+}
+
+.resume-main-five h4{
+margin: 20px auto;
+}
+
+.resume-main-five-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-five p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+.resume-main-six h4{
+margin: 20px auto;
+}
+
+.resume-main-six-para{
+    padding-bottom: 20px;
+     color: #757575;
+}
+
+.resume-main-six p{
+     color: #757575;
+     padding-bottom: 20px;
+}
+
+.summary-parent-btn{
+   display: flex;
+   justify-content: center;
+   margin: 50px 0px;
+}
